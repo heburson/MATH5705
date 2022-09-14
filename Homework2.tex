@@ -1,0 +1,53 @@
+   \documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+\usepackage{fullpage}
+\usepackage{amsfonts}
+\usepackage{amssymb,multicol}
+\usepackage{enumitem}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newtheorem*{theorem}{Theorem}
+
+\newlist{checklist}{itemize}{2}
+\setlist[checklist]{label=$\square$}
+
+\begin{document}
+\begin{center}
+{\Large Homework 2}\\
+Due: Friday, September 23 at 11:59 pm CDT\\
+
+
+\end{center}
+{\bf Instructions:} Submit a pdf of your solutions to the HW 2 assignment on Gradescope. 
+
+When working on this assignment, you should focus on the following goals:
+\begin{itemize}
+\item Carefully use and cite the bijection principle.
+\item Carefully use and cite the multiplication principle.
+%\item Use the definitions of combinations and permutations to solve counting problems.
+\item Write clear and correct proofs that meet the \href{https://docs.google.com/document/d/18LfQoqi6BsY2VdAlpC5xdYEA2rxSGoH0891nVec4_Os/edit?usp=sharing}{Specifications for a Well-written Solution} with a special focus on the following conventions of a mathematical proof:
+\begin{checklist}
+\item All conventions emphasized in Homework 1.
+\item Tell your reader what you are proving and what you are assuming. 
+\item Use transition words to show the logical connections between your sentences.
+\end{checklist}
+\end{itemize}
+
+
+\begin{enumerate}
+\item Choose {\bf one} of the following two exercises.
+\begin{enumerate}
+\item Establish a bijection between the set of dominoes consisting of double blank through double $n$ and the set of edges in the complete graph on $n+2$ vertices. 
+\item Complete Problem 10 (including a closed form for a general n).  (Hint: to get from the recurrence to a closed form, you might want to look back at the solution for the tower of Hanoi in chapter 0)
+\end{enumerate}
+\item Complete problem 7 from the Supplementary exercises for Chapter 1 section of the appendix.  (You should explain your reasoning in complete sentences, but I am not expecting a novel 1-3 sentences to explain where each number comes from in your calculations is sufficient.)
+\item Complete problem 11 from the Supplementary exercises for Chapter 1 section of the appendix.
+\item Assuming $k\le n$, in how many ways can we pass out 
+$k$ distinct pieces of candy (distinct means that each piece of candy is different from the others) to $n$ children if each child may get at most one piece? What is the number if $k>n$? Assume for both questions that we pass out all the candy. (Answer this question using only the product principle. In other words, do not use a formula for counting combinations or premutations.)
+
+\end{enumerate}
+
+\end{document}
