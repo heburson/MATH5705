@@ -1,0 +1,54 @@
+   \documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+\usepackage{fullpage}
+\usepackage{amsfonts}
+\usepackage{amssymb,multicol}
+\usepackage{enumitem}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newtheorem*{theorem}{Theorem}
+
+\newlist{checklist}{itemize}{2}
+\setlist[checklist]{label=$\square$}
+
+\begin{document}
+\begin{center}
+{\Large Homework 3}\\
+Due: Friday, October 7\\
+
+
+\end{center}
+{\bf Instructions:} Submit a pdf of your solutions to the HW 3 assignment on Gradescope. 
+
+When working on this assignment, you should focus on the following goals:
+\begin{itemize}
+\item Carefully use and cite the bijection principle.
+\item Carefully use and cite the multiplication principle.
+\item Use the definitions of combinations and permutations to solve counting problems.
+\item Write clear and correct proofs that meet the \href{https://docs.google.com/document/d/18LfQoqi6BsY2VdAlpC5xdYEA2rxSGoH0891nVec4_Os/edit?usp=sharing}{Specifications for a Well-written Solution} with a special focus on the following conventions of a mathematical proof (these are the same as were emphasized in homeworks 1 and 2):
+\begin{checklist}
+\item Written in complete sentences, taking special care to make sure that equations are included in a sentence. 
+\item Defines variables before/when you use them.
+\item Uses English words when writing anything besides a mathematical formula or equation (i.e. do not use a symbol, such as $\forall,\, \exists,\, \therefore, \, \text{or }\implies$ in place of a word).
+\item No sentences start with a mathematical symbol.
+\item Uses symbols when writing a precise mathematical formula or equation.
+\item Shows computational/algebraic work vertically and centered in the page. 
+\item Tells your reader what you are proving and what you are assuming. 
+\item Uses transition words to show the logical connections between sentences and ideas.
+\end{checklist}
+\end{itemize}
+
+\begin{enumerate}
+ \item Let $S_1$, $S_2$, $\ldots$, $S_k$ be finite sets. Using the bijection principle, prove that $$|S_1\times S_2\times\cdots \times S_k|=|(S_1\times S_2\times\cdots\times S_{k-1})\times S_{k}|.$$
+\item Complete problem 9 from the Supplementary exercises for Chapter 2 section of the appendix.
+\item Complete problem 12 from the Supplementary exercises for Chapter 2 section of the appendix. 
+
+\item Complete problem 32 using the formula in Theorem 4. 
+\item Complete {\bf one} of problem 40 or 41. 
+\item In as many ways as you can (you may get credit for up to 3 separate proofs), show that $${n\choose k}{n-k\choose m}={n\choose m}{n-m\choose k}.$$
+\item Complete problem 10 from the Supplementary exercises for Chapter 3 section of the appendix. 
+\end{enumerate}
+\end{document}
