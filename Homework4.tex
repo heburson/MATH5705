@@ -1,0 +1,52 @@
+   \documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+\usepackage{fullpage}
+\usepackage{amsfonts}
+\usepackage{amssymb,multicol}
+\usepackage{enumitem}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newtheorem*{theorem}{Theorem}
+
+\newlist{checklist}{itemize}{2}
+\setlist[checklist]{label=$\square$}
+
+\begin{document}
+\begin{center}
+{\Large Homework 4}\\
+Due: Friday, October 21\\
+
+
+\end{center}
+{\bf Instructions:} Submit a pdf of your solutions to the HW 4 assignment on Gradescope. 
+
+When working on this assignment, you should focus on the following goals:
+\begin{itemize}
+\item Carefully use and cite the Binomial theorem.
+\item Explain how to obtain a recurrence for a given situation. 
+\item Write clear and correct proofs that meet the \href{https://docs.google.com/document/d/18LfQoqi6BsY2VdAlpC5xdYEA2rxSGoH0891nVec4_Os/edit?usp=sharing}{Specifications for a Well-written Solution} with a special focus on the following conventions of a mathematical proof :
+\begin{checklist}
+\item All conventions from homeworks 1-3
+\item States assumptions clearly at the beginning of the proof. 
+\item Writing is broken into paragraphs each time a new idea begins. 
+\item Uses appropriate quantifiers (once) for every variable introduced. 
+\end{checklist}
+\end{itemize}
+
+\begin{enumerate}
+ \item What is $\sum_{i=0}^n i{n\choose i}$? Prove your answer. 
+\item Complete problem 4 from the Supplementary exercises for Chapter 5 section of the appendix.  (Your goal here is to find a recurrence equation; you do not need to find a formula that depends only on $n$.)
+\item Complete problem 7 from the Supplementary exercises for Chapter 5 section of the appendix.  (Your goal here is to find a recurrence equation; you do not need to find a formula that depends only on $n$.)
+\item  Suppose we draw $n$ mutually intersecting circles in the plane so that each one crosses each other one exactly twice and no three intersect in the same point. (As examples, think of Venn diagrams with two or three mutually intersecting sets.) 
+\begin{enumerate}
+\item Find a recurrence for the number $r_n$ of regions into which the plane is divided by $n$ circles. (Note that one circle divides the plane into two regions: the inside and the outside.) 
+\item Find the number of regions with $n$ circles. (In other words solve your recurrence to obtain a formula for $r_n$ in terms of $n$. )
+\end{enumerate}
+
+ 
+
+\end{enumerate}
+\end{document}
