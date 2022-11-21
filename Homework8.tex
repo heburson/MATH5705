@@ -1,0 +1,38 @@
+   \documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+\usepackage{fullpage}
+\usepackage{amsfonts}
+\usepackage{amssymb,multicol}
+\usepackage{enumitem}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newtheorem*{theorem}{Theorem}
+
+\newlist{checklist}{itemize}{2}
+\setlist[checklist]{label=$\square$}
+
+\begin{document}
+\begin{center}
+{\Large Homework 8}\\
+Due: Friday, December 9\\
+\end{center}
+{\bf Instructions:} Submit a pdf of your solutions to the HW 8 assignment on Gradescope. 
+
+Make sure that your solutions meet the \href{https://docs.google.com/document/d/18LfQoqi6BsY2VdAlpC5xdYEA2rxSGoH0891nVec4_Os/edit?usp=sharing}{Specifications for a Well-written Solution} 
+
+\begin{enumerate}
+\item Let $K$ be a set with $k$ elements. In this problem, you will determine the number of surjective functions $K$ to the set $[n]$.  For each of the questions below, carefully explain your answer and reasoning. 
+\begin{enumerate}
+\item First, we will consider all functions $f:K\to [n]$ (not just surjections). For each $i\in [n]$, define the set $A_i:=\{f:K\to [n]\mid f(x)\ne i \text{ for every } x\in K\}$.  If $f$ is a surjective (onto) function, how many of these $A_i$s does $f$ belong to? 
+\item Let $I\subseteq [n]$ such that $|I|=j$. What is $|\bigcap_{i\in I} A_i|$?
+\item Using your work from parts (a) and (b), use the Inclusion-Exclusion Principle to determine the number of surjections from $K$ to $[n]$. 
+\end{enumerate} 
+
+\item Without determining a closed-form formula for the nth term of the sequence, find the initial terms of and a recurrence equation satisfied by the sequence whose generating function is 
+$$\frac{3}{1-9z+3z^2}.$$ Make sure to fully and carefully explain your answer. 
+
+\end{enumerate}
+\end{document}
